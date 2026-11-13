@@ -8,7 +8,7 @@ namespace Assignment__1
         {
 
 
-            #region Book
+            #region Q1 - Book
             Console.WriteLine("Assignment #1");
             Console.WriteLine("--------------------------------------------");
 
@@ -17,21 +17,21 @@ namespace Assignment__1
             Console.WriteLine(obj);
             #endregion
 
-            #region Types
+            #region Q2 - Types
             Console.WriteLine(obj.ToString());
             Console.WriteLine(obj.Equals(obj));
             Console.WriteLine(obj.GetHashCode());
             Console.WriteLine(obj.GetType());
             #endregion
 
-            #region Compile-time error
+            #region Q3 - Compile-time error
             //int Pages = "450"; 
             // Compile-time error 
             int Pages = 450;
             Console.WriteLine(Pages);
             #endregion
 
-            #region Catch
+            #region Q4 -Catch
             try 
             {
                 int x = 10;
